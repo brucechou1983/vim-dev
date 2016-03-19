@@ -16,7 +16,10 @@ source ~/.vim/vim-dev-lang/vimrc.plugin
 call vundle#end()
 filetype plugin indent on
 
-" UTF8 support
+"Leader key
+let mapleader = ","
+
+"UTF8 support
 set encoding=utf-8
 
 "Syntax
