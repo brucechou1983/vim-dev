@@ -3,9 +3,9 @@
 1. Clone this repo
 
     ```
-    git clone --recursive https://github.com/brucechou1983/vim-dev ~/.vim
+    git clone https://github.com/brucechou1983/vim-dev ~/.vim
     ```
-2. Update Vundle
+2. Update submodules
 
     ```
     cd ~/.vim/vim-dev-lang/
