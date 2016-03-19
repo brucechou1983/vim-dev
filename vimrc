@@ -1,13 +1,10 @@
-"Key maps
-imap jk <Esc>
-
-"Plugin manager
+"Keep this to prevent from possible system bugs
 set nocompatible
+
+"Vundle settings
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
-"Shared plugins
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 Plugin 'itchyny/lightline.vim'
@@ -15,18 +12,50 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
-
-"Language-specific plugins
 source ~/.vim/vim-dev-lang/vimrc.plugin
 call vundle#end()
+filetype plugin indent on
+
+" UTF8 support
+set encoding=utf-8
 
 "Syntax
-filetype plugin indent on
 set background=light
+set laststatus=2
+set statusline=%n\ %F\ %m%r\%=%c-%l/%L
+set number
+set ruler
 syntax on
 
-"Font
-set guifont=Source\ Code\ Pro\ 18
+"Search
+set smartcase
+set showmatch
+set hlsearch
+set incsearch
+
+"Indent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+"Keyboard control
+set backspace=2
+set scrolloff=5
+
+"split window control
+set splitbelow
+set splitright
+
+"Key maps
+" - navigate
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nnoremap ; :nohlsearch<CR>
+
+" - mode switch
+inoremap jk <Esc>
 
 "NERDTree
 let NERDTreeChDirMode=1
@@ -45,6 +74,9 @@ let g:vim_markdown_math = 1
 set backup
 set backupdir=/tmp
 set directory=/tmp
+
+"Font
+set guifont=Source\ Code\ Pro\ 18
 
 "Language specific
 source ~/.vim/vim-dev-lang/vimrc
