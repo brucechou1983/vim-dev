@@ -57,6 +57,9 @@ nnoremap ; :nohlsearch<CR>
 " - mode switch
 inoremap jk <Esc>
 
+" - leader key
+let mapleader = ","
+
 "NERDTree
 let NERDTreeChDirMode=1
 let NERDTreeIgnore=['\.pyc$', '\.swp$']
