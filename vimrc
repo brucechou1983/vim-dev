@@ -6,7 +6,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
@@ -23,6 +22,7 @@ let mapleader = ","
 set encoding=utf-8
 
 "Syntax
+colorscheme Tomorrow-Night
 set background=light
 set laststatus=2
 set statusline=%n\ %F\ %m%r\%=%c-%l/%L
