@@ -28,6 +28,8 @@ set laststatus=2
 set statusline=%n\ %F\ %m%r\%=%c-%l/%L
 set number
 set ruler
+set cursorline
+set cursorcolumn
 syntax on
 
 "Search
