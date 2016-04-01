@@ -80,6 +80,7 @@ let NERDTreeIgnore=['\.pyc$', '\.swp$']
 let NERDTreeQuitOnOpen=1
 let NERDTreeMinimalUI=1
 let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
 
 "Syntastic
