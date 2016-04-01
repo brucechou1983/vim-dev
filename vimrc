@@ -98,7 +98,7 @@ let g:vim_markdown_new_list_item_indent = 2
 let g:vim_markdown_math = 1
 
 "GitGutter
-"set updatetime=250
+set updatetime=250
 
 "Backup
 set backup
