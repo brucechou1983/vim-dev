@@ -12,6 +12,7 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'easymotion/vim-easymotion'
 source ~/.vim/vim-dev-lang/vimrc.plugin
 call vundle#end()
 filetype plugin indent on
