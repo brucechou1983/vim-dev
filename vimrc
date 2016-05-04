@@ -13,6 +13,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'janko-m/vim-test'
 source ~/.vim/vim-dev-lang/vimrc.plugin
 call vundle#end()
 filetype plugin indent on
