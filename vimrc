@@ -66,6 +66,9 @@ nnoremap 00 <C-$>
 " - mode switch
 inoremap jk <Esc>
 
+" - copy to clipboard
+vnoremap cy "+y
+
 " - comment
 autocmd FileType c,cpp,java,javascript,scala let b:comment_leader = '// '
 autocmd FileType sh,ruby,python   let b:comment_leader = '# '
