@@ -109,7 +109,10 @@ set backupdir=/tmp
 set directory=/tmp
 
 "Font
-set guifont=Source\ Code\ Pro\ 18
+set guifont=Source\ Code\ Pro\ for\ Powerline:h18
+
+"Lightline 
+source ~/.vim/.lightline.vim
 
 "Language specific
 source ~/.vim/vim-dev-lang/vimrc
