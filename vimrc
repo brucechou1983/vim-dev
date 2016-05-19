@@ -28,7 +28,6 @@ set encoding=utf-8
 colorscheme Tomorrow-Night
 set background=light
 set laststatus=2
-set statusline=%n\ %F\ %m%r\%=%c-%l/%L
 set number
 set ruler
 set cursorline
@@ -56,10 +55,8 @@ set splitright
 
 "Key maps
 " - navigate
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+nnoremap <C-H> gT
+nnoremap <C-L> gt
 nnoremap ; :nohlsearch<CR>
 nnoremap 00 <C-$>
 
