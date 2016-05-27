@@ -68,6 +68,7 @@ vnoremap cy "+y
 
 " - comment
 autocmd FileType c,cpp,java,javascript,scala let b:comment_leader = '// '
+autocmd FileType scss,sass let b:comment_leader = '// '
 autocmd FileType sh,ruby,python   let b:comment_leader = '# '
 autocmd FileType conf,fstab       let b:comment_leader = '# '
 autocmd FileType dockerfile       let b:comment_leader = '# '
