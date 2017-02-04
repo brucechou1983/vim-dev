@@ -14,6 +14,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'janko-m/vim-test'
+Plugin 'tpope/vim-fugitive'
+Plugin 'plasticboy/vim-markdown'
 source ~/.vim/vim-dev-lang/vimrc.plugin
 call vundle#end()
 filetype plugin indent on
@@ -111,7 +113,7 @@ set backupdir=/tmp
 set directory=/tmp
 
 "Font
-set guifont=Source\ Code\ Pro\ for\ Powerline:h18
+set guifont=Sauce\ Code\ Pro\ Powerline:h18
 
 "Lightline 
 source ~/.vim/.lightline.vim
