@@ -8,6 +8,8 @@
 2. Update submodules
 
     ```
+    cd ~/.vim/
+    git checkout master && git submodule init && git submodule update
     cd ~/.vim/vim-dev-lang/
     git checkout master && git submodule init && git submodule update
     ```
